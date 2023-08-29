@@ -82,13 +82,11 @@
 
 /* FLOWERS SECTION */
 .flowers {
-  /* max-width: 1440px;
-  max-height: 605px; */
+  max-width: 1440px;
+  max-height: 605px;
   display: flex;
-  /* justify-content: center; */
-  /* margin: 48px 240px 0px 240px; */
   margin: auto;
-  margin: 48px 240px 128px 240px;
+  margin-top: 48px;
 }
 
 .flower {
