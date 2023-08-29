@@ -19,17 +19,21 @@
   height: 506px;
 }
 
-.head-title {
-  font-size: 80px;
+.title {
   color: #272727;
   margin-bottom: 35px;
 }
 
-.head-des {
-  margin-bottom: 35px;
-  color: #272727;
+.head-title {
+  font-size: 80px;
+}
+
+.des {
+  color: rgb(39, 39, 39, 60%);
   font-size: 18px;
   opacity: 60%;
+  margin-bottom: 35px;
+
 }
 
 .hed-pic {
@@ -54,4 +58,191 @@
   font-size: 20px;
   font-weight: bold;
 
+}
+
+/* FEATURE SECTION DESIGNING */
+.feature-con {
+  width: 598px;
+  height: 132px;
+  margin: auto;
+  margin-top: 178px;
+  margin-bottom: 48px;
+}
+
+.fuature-title {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+}
+
+.feature-des {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* FLOWERS SECTION */
+.flowers {
+  max-width: 1440px;
+  max-height: 605px;
+  display: flex;
+  /* justify-content: center; */
+  /* margin: 48px 240px 0px 240px; */
+  margin: auto;
+  margin-top: 48px;
+}
+
+.flower {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.flower>img {
+  width: 310px;
+  height: 428px;
+  border-radius: 50% 50% 0% 0%;
+  padding: 110px 78px 0px 76px;
+  margin-bottom: 32px;
+
+}
+
+.flower .img-1 {
+  background-color: rgb(168, 33, 98, 15%);
+
+}
+
+.flower .img-2 {
+  background-color: rgb(5, 151, 160, 15%);
+
+}
+
+.flower .img-3 {
+  background-color: rgb(71, 125, 7, 15%);
+
+}
+
+.flower>a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+/* sticker sec design */
+.sticker-sec {
+  display: flex;
+  width: 1440px;
+  height: 320px;
+  margin: auto;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(39, 39, 39, 5%);
+  align-items: center;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.stickerTitle {
+  color: rgb(39, 39, 39, 80%);
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+/* Discount section design */
+.discount-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(229, 84, 115, 5%);
+  margin-bottom: 128px;
+}
+
+.discount-con {
+  width: 594px;
+  height: 228px;
+  text-align: center;
+}
+
+.discount-pic {
+  width: 318px;
+  height: 420px;
+
+}
+
+/* social */
+.social-content {
+  margin: auto;
+  text-align: center;
+  width: 594px;
+  height: 132px;
+}
+
+.social-flowers {
+  width: 1440px;
+  height: 320px;
+  margin: auto;
+  margin-bottom: 140px;
+
+}
+
+.social-flowers>img {
+  margin-right: 16px;
+}
+
+/* SEARCH BAR DESIGN */
+.search-sec {
+  background-image: url(./images/rectangleBg.png);
+  width: 1440px;
+  height: 449px;
+  margin: 128px 0px 130px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search-content>h1 {
+  color: #272727;
+  font-size: 40px;
+}
+
+.searchBar>input {
+  width: 700px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #111010;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+#footerTitle {
+  color: #E55473;
+  font-size: 48px;
+}
+
+.footer .title {
+  color: #FFFFFF;
+  font-size: 48px;
+}
+
+.footer>p {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 140px;
+}
+
+#copy {
+  color: rgb(255, 255, 255, 40%);
+  font-size: 16px;
 }
